@@ -108,7 +108,7 @@ why the workflow authenticates as one.
    (**Install App → your organization → Only select repositories**).
 4. In your repository, add two secrets under
    **Settings → Secrets and variables → Actions**:
-   - `GH_APP_ID` — the App's numeric ID, shown on its settings page
+   - `GH_APP_CLIENT_ID` — the App's numeric ID, shown on its settings page
    - `GH_APP_PRIVATE_KEY` — the full contents of the `.pem` file, including
      the `BEGIN`/`END` lines
 
